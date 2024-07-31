@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/list1/1945_간단한소인수분해/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list1/1945_간단한소인수분해/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list1/6485_삼성시의전기버스/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list1/6485_삼성시의전기버스/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list1/9386_연속한1의개수/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list1/9386_연속한1의개수/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list1/4831_elec_bus/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/list1/4831_elec_bus/ex2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_31_list2_1/19606_대각선원소의합구하기/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_31_list2_1/19606_대각선원소의합구하기/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_31_list2_1/1974_스도쿠검증/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_31_list2_1/1974_스도쿠검증/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_31_list2_1/1979_어디에단어가들어갈수있을까/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/07_31_list2_1/1979_어디에단어가들어갈수있을까/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_31_list2_1/1966_숫자를정렬하라/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_31_list2_1/1966_숫자를정렬하라/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,14 +37,14 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/a2003/PycharmProjects/ssafy_algo",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/a2003/PycharmProjects/ssafy_algo&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Algo_study_DH" />

@@ -1,16 +1,16 @@
 import sys
 sys.stdin = open('input.txt')
 
-# T=int(input())
-# for ts in range(1,T+1):
+T=int(input())
+for ts in range(1,T+1):
+    N = int(input())
+    arr = list(map(int,input().split()))
+    for i in range(N-1,0,-1):   #버블정렬
+        for j in range(i):
+            if arr[j]> arr[j+1]:
+                arr[j] ,arr[j+1]= arr[j+1], arr[j]
+    print(f'#{ts} {" ".join(map(str,arr))}')
 
-array =[[0,0,0,0],
-        [0,0,0,0],
-        [0,0,0,0]]
-#지그재그
-for i in range(3):
-    for j in range(4):
-        array[i][j + (4-1-2*j) * (i%2)]=1
-        print(array)
+
 
 
