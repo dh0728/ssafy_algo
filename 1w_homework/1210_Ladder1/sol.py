@@ -28,7 +28,6 @@ def start(arr, j):
             else:
                 return False
 
-
 for ts in range(10):
     T=int(input())
     arr= [list(map(int,input().split())) for _ in range(100)]
