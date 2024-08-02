@@ -5,14 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/07_31_list2_1/19606_대각선원소의합구하기/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_31_list2_1/19606_대각선원소의합구하기/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_31_list2_1/1974_스도쿠검증/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_31_list2_1/1974_스도쿠검증/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_31_list2_1/1979_어디에단어가들어갈수있을까/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/07_31_list2_1/1979_어디에단어가들어갈수있을까/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IM/1926_간단한369게임/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/IM/1926_간단한369게임/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_31_list2_1/1966_숫자를정렬하라/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_31_list2_1/1966_숫자를정렬하라/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_31_list2_1/1979_어디에단어가들어갈수있을까/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_31_list2_1/1979_어디에단어가들어갈수있을까/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1w_homework/1206_view/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/1w_homework/1206_view/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/1w_homework/1206_view/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/1w_homework/1206_view/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,6 +31,9 @@
   &quot;associatedIndex&quot;: 3
 }</component>
   <component name="ProjectId" id="2jvD7yisedEOUu6SXLo2IdwbAh5" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
