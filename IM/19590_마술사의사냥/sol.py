@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#dfs 어렵넹
 def magic(arr, K, N):
     dxy=[[1,1],[-1,1],[-1,-1],[1,-1]] #오른쪽위, 오른쪽아래, 왼쪽아래, 왼쪽위(시계방향)
     max_cnt=0   #최고값

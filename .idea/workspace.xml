@@ -5,14 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/4013_특이한자석/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/4013_특이한자석/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/4014_활주로건설/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/4014_활주로건설/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/1w_Extrea/9490_풍선팡/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/1w_Extrea/9490_풍선팡/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/모의역량테스트_A형/4014_활주로건설/input.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/모의역량테스트_A형/4014_활주로건설/sol.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
