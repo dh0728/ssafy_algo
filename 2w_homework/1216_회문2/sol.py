@@ -2,45 +2,37 @@ import sys
 sys.stdin=open('input.txt')
 
 def find_word(arr):
-    for i in range(100):
-        for j in range(100,3,-1): #회문을 발견할 때 까지 실행줄여 나가면서 확인
-            if j
+    max_len = 0
+    for i in range(100): #가로 검사
+        for k in range(100,1,-1): #회문을 발견할 때 까지 실행줄여 나가면서 확인
+            for j in range(0, 101-k): #j =col
+                find = True
+                for c in range(k//2): #k//2번 비교
+                    nj_l=j+c #비교할거 맨 왼쪽 끝값부터 c만큼 점점 더해짐
+                    nj_r=j+k-c-1 #비교할거 맨 오른쪽 끝부터 c만큼 점점 빼짐
+                    if arr[i][nj_l]!=arr[i][nj_r]:
+                        find=False
+                        break
+                if find:
+                    if k > max_len:
+                        max_len =k
+                        break
 
-
-
-    # max_cnt=0
-    # for i in range(100):
-    #     for j in range(100):
-    #         n = 2  # 비교 문자 수
-    #         while j_r<100:
-    #             j_l = j
-    #             j_r = j + n - 1
-    #             for _ in range(n//2): #일치할 시
-    #                 if arr[i][j_l]==arr[i][j_r]:
-    #                     j_l+=1
-    #                     j_r-=1
-    #                 elif arr[i][j_l]!=arr[i][j_r]:   #일치 안할시
-    #                     if n > max_cnt:
-    #                         max_cnt = n
-    #                     break
-    #             n+=1
-    #
-    # for j in range(100):
-    #     for i in range(100):
-    #         n = 2  # 비교 문자 수
-    #         while i_r < 100:
-    #             i_l = i
-    #             i_r = i + n - 1
-    #             for _ in range(n//2):
-    #                 if arr[i_l][j]==arr[i_r][j]:
-    #                     i_l+=1
-    #                     i_r-=1
-    #                 elif arr[i_l][j]!=arr[i_r][j]:
-    #                     if n > max_cnt:
-    #                         max_cnt = n
-    #                     break
-    #             n+=1
-    # return max_cnt
+    for j in range(100): #세로 검사
+        for k in range(100,1,-1): #회문을 발견할 때 까지 실행줄여 나가면서 확인
+            for i in range(0, 101-k): #j =col
+                find = True
+                for c in range(k//2): #k//2번 비교
+                    ni_l=i+c #비교할거 맨 왼쪽 끝값부터 c만큼 점점 더해짐
+                    ni_r=i+k-c-1 #비교할거 맨 오른쪽 끝부터 c만큼 점점 빼짐
+                    if arr[ni_l][j]!=arr[ni_r][j]: #회문아니면 false 하고 break
+                        find=False
+                        break
+                if find:
+                    if k > max_len:
+                        max_len =k
+                        break
+    return max_len
 
 T=10
 for tc in range(T):
@@ -48,3 +40,4 @@ for tc in range(T):
     arr=[list(input()) for _ in range(100)]
     result=find_word(arr)
     print(f'#{tc} {result}')
+
