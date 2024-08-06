@@ -18,3 +18,4 @@ for tc in range(1,T+1):
     arr=list(input())
     result= pop_word(arr)
     print(f'#{tc} {result}')
+
