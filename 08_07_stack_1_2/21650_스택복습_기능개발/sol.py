@@ -19,3 +19,20 @@ def solution(progresses, speeds):
     if s:                         # for문 완료 후 남아있는 기능 있으면 마저 배포
         answer.append(len(s))
     return answer
+
+# progresses                speeds              return
+# [93, 30, 55]	            [1, 30, 5]	        [2, 1]
+# [95, 90, 99, 99, 80, 99]	[1, 1, 1, 1, 1, 1]	[1, 3, 2]
+
+#다른 풀이
+
+def solution(progresses, speeds):
+    Q=[]
+    for p, s in zip(progresses, speeds):
+        if len(Q)==0 or Q[-1][0]<-((p-100)//s): # Q리스트가 비어 있거나 이전 기능의 배포가능 날짜보다 배포날짜가 큰 경우
+            Q.append([-((p-100)//s),1])         # (p-100)//s -> (30-100)//30= -3 음수의 //나눗셈은 -2.3 -> -3
+        else:
+            Q[-1][1]+=1                         # 이전 기능의 배포가능 날짜가 현재 보고 있는 기능의 배포 날짜가능 날짜보다 큰경우
+                                                # +1 ->한번에 배포하는 기능 +1한다는 의미
+    return [q[1] for q in Q]                    # 한번에 배포하는 기능 수만 가진 리스트 생성
+
