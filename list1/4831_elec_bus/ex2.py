@@ -30,15 +30,4 @@ for tc in range(1, T+1):
 
 
 
-    # diff_bs=[]  #충전소 간의 거리 차이
-    # for i in range(0,M):
-    #     if i==0:
-    #         diff_bs.append(arr[i]-0)
-    #     elif i == M-1:
-    #         diff_bs.append(N-arr[i])
-    #     else:
-    #         diff_bs.append(arr[i]-arr[i-1])
-
-
-
 

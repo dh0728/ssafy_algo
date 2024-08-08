@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#1208
 for test_case in range(1,11):
     N = int(input())
     arr = list(map(int,input().split()))
@@ -32,3 +32,4 @@ for test_case in range(1,11):
         arr[min_index]+=1
         N -=1
     print(f'#{test_case} {arr[-1]-arr[0]}')
+

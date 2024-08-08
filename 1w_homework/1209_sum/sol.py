@@ -1,6 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
-
+#1209
 for _ in range(1,11):
     T = int(input())
     arr=[list(map(int,input().split())) for _ in range(100)]
