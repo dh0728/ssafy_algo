@@ -6,9 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2w_homework/1222_계산기/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/2w_homework/1222_계산기/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/queue.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/queue.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/stack/stack_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/stack/stack_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/07_31_list2_1/4837_부분집합의합/sol2.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_31_list2_1/4837_부분집합의합/sol2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list1/16504_Gravity/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/list1/16504_Gravity/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
