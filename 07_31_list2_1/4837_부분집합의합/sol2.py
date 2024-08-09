@@ -1,6 +1,7 @@
 import sys
 sys.stdin=open('input.txt')
 
+# 4837_부분집합의 합
 def dfs_find(v):
     global count
     if v==12 + 1:

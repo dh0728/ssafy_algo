@@ -4,16 +4,19 @@ sys.stdin=open('input.txt')
 # 4837_부분집합의 합
 def dfs_find(v, num, sum):
     global count
-    if v > 12 or num>N or sum>K: # 원소 숫자가 N개 이상, 합이 K이상일시 return
+    if v > 12: # v 원소의 개수가 12개 이상 일시
+        return
+    if num >N:  # 원소 숫자가 N개 이상 return
+        return
+    if sum >K:  # 합이 K이상일시 return
         return
     if num==N and sum==K:   #num이 N이거나 sum==K이면 count+1
         count +=1           #만족하는 부분집합수 +1
         return
-    else:
-        visited[v]=1
-        dfs_find(v+1,num+1, sum+v)
-        visited[v]=0
-        dfs_find(v+1, num, sum)
+    visited[v]=1
+    dfs_find(v+1,num+1, sum+v)
+    visited[v]=0
+    dfs_find(v+1, num, sum)
 
 T=int(input())
 for tc in range(1,T+1):
