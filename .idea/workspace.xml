@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/일타싸피/findangle.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/07_31_list2_1/4837_부분집합의합/sol2.py" beforeDir="false" afterPath="$PROJECT_DIR$/07_31_list2_1/4837_부분집합의합/sol2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/list1/16504_Gravity/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/list1/16504_Gravity/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -175,7 +174,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/08_01_list2_2/1954_달팽이숫자/sol2.py</url>
-          <line>54</line>
+          <line>37</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
