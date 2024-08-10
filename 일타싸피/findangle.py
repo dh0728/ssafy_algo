@@ -1,13 +1,23 @@
+import math
 def find_angle(myball,target):
-    pass
+    x=hole4[0]-myball[0]
+    y=hole4[1]-myball[1]
+    ga=math.atan(y/x)   #가
+    my_dis=math.sqrt((hole4[0]-myball[0])**2+(hole4[1]-myball[1])**2)  # 내공과 홀 사이의 거리 a
 
 
+
+#공의 직경 5.78
 hole1=[0,0]
 hole2=[127,0]
 hole3=[254,0]
 hole4=[0,127]
 hole5=[127,127]
 hole6=[254,127]
+
+myball=[127, 63.5]
+target=[80,80]
+reuslt= find_angle(myball, target)
 
 
 
