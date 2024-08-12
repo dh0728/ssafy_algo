@@ -6,9 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_09_string_2_2/4408_자기방으로돌아가기/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08_09_string_2_2/4408_자기방으로돌아가기/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_09_string_2_2/4408_자기방으로돌아가기/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_09_string_2_2/4408_자기방으로돌아가기/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_09_string_2_2/4880_토너먼트카드게임/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_09_string_2_2/4880_토너먼트카드게임/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/1tassafy/findangle.py" beforeDir="false" afterPath="$PROJECT_DIR$/1tassafy/findangle.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
