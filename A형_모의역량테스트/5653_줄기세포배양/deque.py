@@ -1,9 +1,12 @@
+import sys
+sys.stdin=open('input.txt')
+
 from collections import deque
 
 T = int(input())
 # 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 dxy = [[1, 0], [0, 1], [0, -1], [-1, 0]]
-for test_case in range(1, T + 1):
+for test_case in range(1, 1 + 1):
     N, M, K = list(map(int, input().split()))
     grid = [list(map(int, input().split())) for _ in range(N)]
 
@@ -15,7 +18,7 @@ for test_case in range(1, T + 1):
 
             # 생명력, 위치 좌표 i, 좌표 j,살아있는 시간
             queue.append([grid[n][m], n, m, 0])
-
+    print(queue)
     # 셀이 존재하는 좌표를 저장
     cell_set = set()
     # k 시간동안 세포 분열 진행
@@ -31,8 +34,8 @@ for test_case in range(1, T + 1):
             # 비활성화 -> 활성화
             if t < life:
                 tmp_queue.append([life, cx, cy, t + 1])
+                print(tmp_queue)
                 continue
-
             # 분열해야 하는 경우
             if t == life:
                 for dx, dy in dxy:
