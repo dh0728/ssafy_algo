@@ -23,7 +23,7 @@ def find_binary(word,words):
 
 T=int(input())
 for tc in range(1, T+1):
-    words = list(map(int,input().strip().split()))
+    words = list(map(int,input().strip().split()))  #사용 이진 문자열별 갯수가 담긴 리스트
     # 00 01 10 11
     # words = list(map(int,input().split()))
     N=1
@@ -32,6 +32,6 @@ for tc in range(1, T+1):
     bi_list = {0: '00' , 1: '01' , 2: '10' , 3: '11'}
     result=find_binary('', words)
     if result:
-        print(f'{tc} {result}')
+        print(f'#{tc} {result}')
     else:
-        print(f'{tc} impossible')
+        print(f'#{tc} impossible')
