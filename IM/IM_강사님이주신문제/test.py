@@ -44,6 +44,7 @@ for _ in range(student_num):
 
 change_state(button_num, student_num,student_list)
 c=0
+
 for i in range(len(state)):
     c += 1
     print(state[i], end=' ')
