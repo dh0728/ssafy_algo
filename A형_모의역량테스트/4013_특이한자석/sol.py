@@ -1,35 +1,43 @@
 import sys
 sys.stdin = open('input.txt')
 
-def rotation(arr, k): #기준 자석 회전
-    idx= k[0]-1 #회전시키는 자석의 index
-    N=len(arr[0]) #자석모서리 갯수
-    rot_arr=[0]*N
-    for j in range(N):
-        if k[1]==1: #시계방향 회전
-            if j==0:
-                rot_arr[0]=arr[idx][-1]
-            else:
-                rot_arr[j]=arr[idx][j-1]
-        else:   #반시계방향 회전
-            if j==0:
-                rot_arr[-1]=arr[idx][0]
-            else:
-                rot_arr[j-1]=arr[idx][j]
-    arr[idx]=rot_arr
-    print(arr)
+def dfs(mag, dir): #mag = 회전자석, dir 1 시계방향, -1 반시계방향
+    ch[mag]=1
+    l_mag=mag-1
+    r_mag=mag+1
+    if mag >0: #왼쪽 범위 안에 들어가고
+        if arr[mag][6] != arr[l_mag][2] and not ch[l_mag]:
+            dfs(l_mag,-1*dir)
+    if mag <3: # 오른쪽 범위 안에 들어가고
+        if arr[mag][2] != arr[r_mag][6] and not ch[r_mag]:
+            dfs(r_mag, -1*dir)
+
+    if dir==1: # 시계방향 뒤에꺼 때고 앞에 넣기
+        # m=arr[mag].pop()
+        # arr[mag].insert(0,m)
+        arr[mag]= [arr[mag].pop()] + arr[mag]
+    else:   # 반시계 방향 앞에꺼 때고 뒤에 넣기
+        arr[mag]=arr[mag][1:] + [arr[mag][0]]
+
+
 
 T=int(input())
 for tc in range(1,T+1):
-    K=int(input())  #회전횟수
-    arr=[list(map(int,input().split())) for _ in range(4)]  #자석배열
-    k_arr =[list(map(int,input().split())) for _ in range(K)] #회전하는 자석번호, 방향 1:시계 -1:반시계
-    dy=[1,-1]
-    for k in k_arr:
-        idx = k[0] - 1
-        rotation(arr ,k)
-        for c in range(len(dy)):
-            ni = idx
-            for d in range(len(arr)):
-                ni+=c
-            if ni<0 or ni>len(arr)
+    K=int(input()) #회전 횟수
+    num=4
+    arr=[list(map(int,input().split())) for _ in range(num)]
+    # [회전자석, 방향]
+    # 1 시계방향, -1 반시계방향
+    # N =0 , S=1
+    rotaion_list=[list(map(int,input().split())) for _ in range(K)]
+
+    for i in range(K):
+        ch = [0] * num
+        dfs(rotaion_list[i][0]-1, rotaion_list[i][1]) # 기준자석(index라 -1), 방향
+
+    result=0
+    for i in range(num):
+        if arr[i][0]:
+            result+=2**i
+    print(f'#{tc} {result}')
+

@@ -1,6 +1,6 @@
 import sys
 import math
-sys.stdin = open("sample_input (1).txt", "r")
+sys.stdin = open('input.txt')
 
 T = int(input())
 
@@ -51,10 +51,10 @@ for test_case in range(1, T + 1):
     그 수를 선택하냐, 안하냐의 문제였다. ( 그래서 하나의 수 값만 파라미터 보내면 됐다. )
     왼쪽에 놓냐, 오른쪽에 놓냐? 
     """
-    # for n in range(N):
-    #     visited[n] = True
-    #     dfs(1, arr[n], 0)
-    #     visited[n] = False
+    for n in range(N):
+        visited[n] = True
+        dfs(1, arr[n], 0)
+        visited[n] = False
 
-    dfs(0, 0, 0)
-    print(f"#{test_case}")
+    # dfs(0, 0, 0)
+    print(f"#{test_case} {result}")
