@@ -5,16 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/3234_준환이의양팔저울/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/3234_준환이의양팔저울/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/5293_이진문자열복원/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/5293_이진문자열복원/sol3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/5644_무선충전/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/5644_무선충전/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/9480_민정이와광직이의알파벳공부/sol2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/4012_요리사/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/A형_모의역량테스트/4012_요리사/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_13_Queue_1/5099_피자굽기/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_13_Queue_1/5099_피자굽기/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형_모의역량테스트/9480_민정이와광직이의알파벳공부/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형_모의역량테스트/9480_민정이와광직이의알파벳공부/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_14_Queue_2/1238_contact/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08_14_Queue_2/1238_contact/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_14_Queue_2/1238_contact/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_14_Queue_2/1238_contact/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_14_Queue_2/5102_노드의거리/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_14_Queue_2/5102_노드의거리/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_14_Queue_2/5105_미로의거리/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/08_14_Queue_2/5105_미로의거리/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_14_Queue_2/5105_미로의거리/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_14_Queue_2/5105_미로의거리/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A형_모의역량테스트/5658_보물상자비밀번호/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/A형_모의역량테스트/5658_보물상자비밀번호/input.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/A형_모의역량테스트/5658_보물상자비밀번호/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형_모의역량테스트/5658_보물상자비밀번호/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,6 +52,8 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\A형_모의역량테스트\3234_준환이의양팔저울" />
+      <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\A형_모의역량테스트\5644_무선충전" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\A형_모의역량테스트\5653_줄기세포배양" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\08_09_string_2_2\4881_배열최소합" />
     </key>
