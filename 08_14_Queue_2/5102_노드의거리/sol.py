@@ -34,3 +34,4 @@ for tc in range(1,T+1):
     cnt=0
     BFS(S,G) #출발 S 도착 G
     print(f'#{tc} {cnt}')
+
