@@ -19,8 +19,10 @@ for test_case in range(1, 1 + 1):
             # 생명력, 위치 좌표 i, 좌표 j,살아있는 시간
             queue.append([grid[n][m], n, m, 0])
     print(queue)
+
     # 셀이 존재하는 좌표를 저장
     cell_set = set()
+
     # k 시간동안 세포 분열 진행
     for k in range(K):
         tmp_queue = []
