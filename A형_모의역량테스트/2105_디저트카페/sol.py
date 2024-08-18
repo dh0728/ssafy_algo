@@ -16,6 +16,7 @@ def dfs(x,y,de_list,dir,end): # x,y는 현재좌표, de_list 먹은 디저트번
         if dir <3:
             dfs(x+dxy[dir][0],y+dxy[dir][1],de_list+[arr[x][y]],dir+1,end) #방향 꺾기
     return
+
 T=int(input())
 for tc in range(1,T+1):
     N=int(input())

@@ -30,4 +30,4 @@ for tc in range(1,T+1):
     for i in range(1,len(arr),2):
         push_bttn(arr[i], int(arr[i+1]))
 
-    print(f'# {tc} {time}')
+    print(f'#{tc} {time}')
