@@ -19,8 +19,6 @@ def dfs(mag, dir): #mag = 회전자석, dir 1 시계방향, -1 반시계방향
     else:   # 반시계 방향 앞에꺼 때고 뒤에 넣기
         arr[mag]=arr[mag][1:] + [arr[mag][0]]
 
-
-
 T=int(input())
 for tc in range(1,T+1):
     K=int(input()) #회전 횟수

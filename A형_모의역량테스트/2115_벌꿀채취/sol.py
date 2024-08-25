@@ -27,9 +27,10 @@ def cal_profit(arr1,arr2): #
 def find2(row,col): # 첫번째 사람의 행, 마지막으로 선택한 벌꿀통 열
     arr2=[]
     if (N-1)-col >=M: # 2번 벌꿀통이 1번과 같은 열에 존재할 수 있으면
-        for i in range(1,M+1):
-            arr2.append(honey[row][col+i])  # 2번 사람 벌꿀 삽입
-        cal_profit(arr1,arr2)
+        for j in range(col+1,N-M+1):
+            for i in range(M):
+                arr2.append(honey[row][j+i])  # 2번 사람 벌꿀 삽입
+            cal_profit(arr1,arr2)
     else:   # 같은 줄에 존재 못하면 다음 줄로
         for i in range(row+1,N):
             for j in range(N - M + 1):  # 1행에서 꿀을 채취할 수 있는 경우 = 행길일 - 벌통개수 +1
