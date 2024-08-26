@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/08_08_stack_2_1/21676_targetnumber/ex1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_06_stack_1_1/4866_괄호검사/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_06_stack_1_1/4866_괄호검사/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_13_Queue_1/5099_피자굽기/sol2.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_13_Queue_1/5099_피자굽기/sol2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_14_Queue_2/1227_미로2/ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_14_Queue_2/1227_미로2/ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_14_Queue_2/1227_미로2/ex2.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_14_Queue_2/1227_미로2/ex2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_14_Queue_2/1238_contact/ex1.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_14_Queue_2/1238_contact/ex1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형_모의역량테스트/2115_벌꿀채취/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형_모의역량테스트/2115_벌꿀채취/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형_모의역량테스트/2115_벌꿀채취/sol2.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형_모의역량테스트/2115_벌꿀채취/sol2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/A형_모의역량테스트/4013_특이한자석/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/A형_모의역량테스트/4013_특이한자석/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
