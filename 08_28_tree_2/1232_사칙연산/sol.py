@@ -11,7 +11,7 @@ def postorder(node):
         언제-> 연산자인 경우만 있다.
         tree[node][1] -> '+-*/'
     '''
-
+    print(arr[node][1])
     if arr[node][1] in ['+','-','*','/']:
         left=postorder(arr[node][2])
         right=postorder(arr[node][3])
@@ -26,6 +26,6 @@ for tc in range(1,2):
     # node 번호 인덱스로 사용할 값만 int로 형변환 해서 tree 정보 기록
     arr=[list(map(lambda x:int(x) if x.isdecimal() else x, input().split())) for _ in range(N)]
     arr.insert(0,0)
-    # print(arr)
+    print(arr)
     result=postorder(1)
     print(f'#{tc} {result}')

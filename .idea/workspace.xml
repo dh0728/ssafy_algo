@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="" />
+    <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/08_28_tree_2/1232_사칙연산/sol2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_28_tree_2/1232_사칙연산/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_28_tree_2/1232_사칙연산/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_28_tree_2/5178_노드의_합/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_28_tree_2/5178_노드의_합/sol.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
