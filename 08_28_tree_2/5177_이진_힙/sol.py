@@ -11,7 +11,6 @@ def enq(target):   # 삽입을 위한 함수 , target 트리의 위치
             tree[target],tree[parent] = tree[parent],tree[target]
         target = parent
 
-
 T=int(input())
 for tc in range(1,T+1):
     N=int(input())

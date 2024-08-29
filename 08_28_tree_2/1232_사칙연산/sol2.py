@@ -11,6 +11,7 @@ def cal(left,right,oper):
         return left*right
     else:
         return left/right
+
 def postorder(node):
     # if str(tree[node]) in '+-*/': # 문자열쓰면 문자열로 안바꿔주면 오류남
     if tree[node] in ['+','-','*','/']: # node 값이 연산자이면

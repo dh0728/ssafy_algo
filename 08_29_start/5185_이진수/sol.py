@@ -1,10 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
 
-import string
-
-# 이건 2~36진법까지 변환할 경우
-# tmp=string.digits+string.ascii_lowercase #0123456789abcdefghijklmnopqrstuvwxyz
 
 tmp='0123456789abcdef'
 def convert(num,base):
@@ -17,7 +13,7 @@ def convert(num,base):
 T=int(input())
 for tc in range(1,T+1):
     arr=list(input().split())
-    # int(num,base) -> base 진수인 num을 10진수로 변환해주는 함수수
+    # int(num,base) -> base 진수인 num을 10진수로 변환해주는 함수
     # convert(16진수를 10진수로 변환한 값, 최종 변환 진수값)
     bin_num=convert(int(arr[1],16),2)
 
