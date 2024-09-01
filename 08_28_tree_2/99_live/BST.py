@@ -55,8 +55,9 @@ class BinarySearchTree:
             self._inorder_traversal(node.right)
 
 N = int(input())
-arr = list(map(int, input().split()))
-
+# arr = list(map(int, input().split()))
+N=8
+arr=[1,2,3,4,5,6,7,8]
 bst = BinarySearchTree()
 
 for num in arr:

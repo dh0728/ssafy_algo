@@ -5,10 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/08_28_tree_2/1232_사칙연산/sol2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/ssafy_algo.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/99_extra/5176_BinarySeachTree_Remake/sol_DH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/99_extra/구간합_리메이크/sol_DH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/99_extra/반복문자_리메이크/sol_DH.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv_1w_HomeWork/1242_암호코드스캔/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv_1w_HomeWork/1242_암호코드스캔/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_28_tree_2/1232_사칙연산/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_28_tree_2/1232_사칙연산/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_28_tree_2/5178_노드의_합/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_28_tree_2/5178_노드의_합/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/08_28_tree_2/99_live/BST.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_28_tree_2/99_live/BST.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/99_extra/5176_BinarySeachTree_Remake/sol.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,23 +41,50 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/a2003/PycharmProjects/ssafy_algo&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.BST.executor": "Run",
+    "Python.sol.executor": "Debug",
+    "Python.sol_DH.executor": "Debug",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/a2003/PycharmProjects/ssafy_algo",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\99_extra" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\A형_모의역량테스트\3234_준환이의양팔저울" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\A형_모의역량테스트\5644_무선충전" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\A형_모의역량테스트\5653_줄기세포배양" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\08_09_string_2_2\4881_배열최소합" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.sol">
+    <configuration name="BST" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssafy_algo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/08_28_tree_2/99_live" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/08_28_tree_2/99_live/BST.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="Algo_study_DH" />
       <option name="ENV_FILES" value="" />
@@ -67,6 +99,50 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssafy_algo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/adv_1w_HomeWork/1242_암호코드스캔" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/adv_1w_HomeWork/1242_암호코드스캔/sol.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="sol_DH" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ssafy_algo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/99_extra/반복문자_리메이크" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:\Users\a2003\PycharmProjects\ssafy_algo\99_extra\반복문자_리메이크\sol_DH.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -155,6 +231,13 @@
       <option name="USE_PATTERN" value="false" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.sol" />
+        <item itemvalue="Python.sol_DH" />
+        <item itemvalue="Python.BST" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -191,6 +274,11 @@
           <url>file://$PROJECT_DIR$/08_13_Queue_1/5099_피자굽기/sol2.py</url>
           <line>1</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/99_extra/반복문자_리메이크/sol_DH.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
