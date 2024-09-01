@@ -5,15 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/ssafy_algo.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/99_extra/5176_BinarySeachTree_Remake/sol_DH.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/99_extra/구간합_리메이크/sol_DH.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/99_extra/반복문자_리메이크/sol_DH.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv_1w_HomeWork/1242_암호코드스캔/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv_1w_HomeWork/1242_암호코드스캔/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/08_28_tree_2/99_live/BST.py" beforeDir="false" afterPath="$PROJECT_DIR$/08_28_tree_2/99_live/BST.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/99_extra/5176_BinarySeachTree_Remake/sol.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/adv_1w_HomeWork/1242_암호코드스캔/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/adv_1w_HomeWork/1242_암호코드스캔/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
