@@ -36,12 +36,12 @@ hex_to_bin={
 def exam_condition(num_list):
     even=0  #짝수
     odd=0   #홀수
-    for i in range(1,9):
+    for i in range(1,8):
         if i%2: #홀수이면
             odd+=num_list[i]
         else:   #짝수이면
             even+=num_list[i]
-    sum_code=odd*3+even
+    sum_code=odd*3+even+num_list[8]
     if sum_code%10==0:  # 10에 배수이면 조건 만족
         return sum(num_list) # 조건 만족시 더한 값 리턴
     return 0    # 불만족시 0 리턴
@@ -71,6 +71,8 @@ def exam_code(code):
             if len(dec_code)==9:    # 8개 코드 다 변환 완료시 검사 함수로 검사
                 code_sum=exam_condition(dec_code)
                 result+=code_sum    # 결과값 더하기 올바르지 않은 코드는 0이 더해짐
+                if tc==13:
+                    print(code_sum)
                 dec_code=[0]        # 다시 다른 암호 검사를 위해 초기화
         else:
             idx -=1
