@@ -1,9 +1,6 @@
 import sys
 sys.stdin = open('input.txt')
 
-
-
-
 def find_winner(p):
     pass
 
