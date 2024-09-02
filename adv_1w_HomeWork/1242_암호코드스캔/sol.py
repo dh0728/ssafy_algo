@@ -69,10 +69,10 @@ def exam_code(code):
             ratio=list(map(lambda x : x//code_len, ratio))
             dec_code.insert(1,pwd[(ratio[0],ratio[1],ratio[2],ratio[3])]) #pwd[(3,2,1,1)]=0
             if len(dec_code)==9:    # 8개 코드 다 변환 완료시 검사 함수로 검사
-                code_sum=exam_condition(dec_code)
-                result+=code_sum    # 결과값 더하기 올바르지 않은 코드는 0이 더해짐
-                if tc==13:
-                    print(code_sum)
+                if dec_code not in dec_code_list: # 이전에 계산한적있는 암호인지 체크
+                    dec_code_list.append(dec_code)
+                    code_sum=exam_condition(dec_code)
+                    result+=code_sum    # 결과값 더하기 올바르지 않은 코드는 0이 더해짐
                 dec_code=[0]        # 다시 다른 암호 검사를 위해 초기화
         else:
             idx -=1
@@ -81,6 +81,7 @@ T=int(input())
 for tc in range(1,T+1):
     N,M = map(int,input().split()) # N 세로의 길이 M 가로의 길이
     arr=set([input() for _ in range(N)]) #그냥 바로 set으로 받기
+    dec_code_list=[]
     result=0
     for a in arr:
         hex_to_bin_code=''
