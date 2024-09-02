@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/adv_2w_extra/1861_정사각형방/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/adv_2w_extra/1861_정사각형방/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_02_완전검색_그리디/5203_베이비진_게임/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_02_완전검색_그리디/5203_베이비진_게임/sol.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
