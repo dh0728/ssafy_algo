@@ -1,11 +1,10 @@
-N=int(input())
-n=6
-start=1
-cnt=1
-while True:
-    if start>=N:
-        print(cnt)
-        break
-    start+=n
-    n+=6
-    cnt+=1
+def bino_coef(n, k):
+    if k == 0 or n == k:
+        return 1
+    return bino_coef(n-1, k) + bino_coef(n-1, k-1)
+
+
+
+N,K=map(int,input().split())
+result=bino_coef(N,K)
+print(result)
