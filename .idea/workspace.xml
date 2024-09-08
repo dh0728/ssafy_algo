@@ -5,17 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/adv_2w_extra/1486_장훈이의높은선반/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv_2w_extra/1486_장훈이의높은선반/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv_2w_extra/1952_수영장/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv_2w_extra/1952_수영장/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv_2w_extra/1952_수영장/sol2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv_2w_extra/2819_격자판의숫자이어붙이기/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/adv_2w_extra/2819_격자판의숫자이어붙이기/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_05_백트래킹/5208_전기버스2/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09_05_백트래킹/5208_전기버스2/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_05_백트래킹/5208_전기버스2/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_05_백트래킹/5208_전기버스2/sol.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_05_백트래킹/5209_최소생산비용/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/09_05_백트래킹/5209_최소생산비용/input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/09_05_백트래킹/5209_최소생산비용/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/09_05_백트래킹/5209_최소생산비용/sol.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_09_문제풀이4/20551_증가하는사탕수열/input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/09_09_문제풀이4/20551_증가하는사탕수열/sol.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex/sol.py" afterDir="false" />
     </list>
@@ -52,7 +44,7 @@
     "Python.sol_DH.executor": "Debug",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "Merging master",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/a2003/PycharmProjects/ssafy_algo",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
