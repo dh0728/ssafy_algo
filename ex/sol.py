@@ -1,7 +1,10 @@
 import sys
 sys.stdin=open('input.txt')
 
-N, M = map(int,input().split())
-
+while True:
+    try:
+        print(input())
+    except:
+        break
 
 
