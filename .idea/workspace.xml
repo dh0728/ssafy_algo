@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8725a7c-4c52-466f-9682-d74c7fd2b43b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/09_09_문제풀이4/12741_두전구/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_09_문제풀이4/12741_두전구/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_09_문제풀이4/4008_숫자만들기/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_09_문제풀이4/4008_숫자만들기/sol.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_09_문제풀이4/5656_벽돌깨기/input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/09_09_문제풀이4/5656_벽돌깨기/sol.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex/input.txt" beforeDir="false" afterPath="$PROJECT_DIR$/ex/input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex/sol.py" beforeDir="false" afterPath="$PROJECT_DIR$/ex/sol.py" afterDir="false" />
@@ -55,11 +49,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\ex" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\99_extra" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\A형_모의역량테스트\3234_준환이의양팔저울" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\A형_모의역량테스트\5644_무선충전" />
       <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\A형_모의역량테스트\5653_줄기세포배양" />
-      <recent name="C:\Users\a2003\PycharmProjects\ssafy_algo\08_09_string_2_2\4881_배열최소합" />
     </key>
   </component>
   <component name="RunManager" selected="Python.sol">

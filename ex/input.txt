@@ -1,3 +1,10 @@
-Hello
-Baekjoon
-Online Judge
+9
+0
+12345678
+1
+2
+0
+0
+0
+0
+32
