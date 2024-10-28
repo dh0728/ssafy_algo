@@ -1,5 +1,4 @@
 import sys
-sys.stdin=open('input.txt')
-#input = sys.stdin.readline
-
+#sys.stdin=open('input.txt')
+input = sys.stdin.readline
 
